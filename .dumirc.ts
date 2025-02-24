@@ -19,4 +19,5 @@ export default defineConfig({
     // 约定式路由的根目录配置
     atomDirs: [{ type: 'component', dir: 'packages/hooks/src' }],
   },
+  publicPath: '/wang-react-hooks/',
 });
