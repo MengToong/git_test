@@ -2,9 +2,10 @@
  * @type import('dumi)
  */
 import { defineConfig } from 'dumi';
-import path from 'path';
 
 export default defineConfig({
+  base: '/wang-react-hooks/',
+  publicPath: '/wang-react-hooks/',
   hash: true,
   favicons: ['/logo.png'],
   themeConfig: {
@@ -19,5 +20,4 @@ export default defineConfig({
     // 约定式路由的根目录配置
     atomDirs: [{ type: 'component', dir: 'packages/hooks/src' }],
   },
-  publicPath: '/',
 });
